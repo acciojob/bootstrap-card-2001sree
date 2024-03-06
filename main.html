@@ -4,34 +4,43 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+     rel="stylesheet" 
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="card-deck">
 	<div class="card">
-		<div class="card-title">
-			<h1 class="card-title">Welcome to Sync5</h1>
+		<div class="card-header">
+			<h1>Welcome to Sync5</h1>
 		</div>
-		<div clsass="card-header">
-			<p class="bg-secondary">New Features</p>
-			<h4>Mobile and Table support</h4>
-			<div class="card-body">
-				<p class="card-text">With this new update you will be able to sync your work across a large number of platforms.</p>
-				<button class="bg-primary" >Read more</button>
-				<div class="bg-danger" >
-					<h5>Alert</h5>
-					<h3>Node Dead</h3>
-					<p>node 5(east-us) is offline for last 12 days</p>
-				</div>
-				<img src="https://img.freepik.com/free-photo/peaceful-sea-texture_1199-60.jpg" alt="see img">
-				<h4>President under Pressure</h4>
-				<p>The US president is under pressure to respond to a widespread cuber-attack linked to China.</p>
-				<p><i>Last updated 12 mins ago</i></p>
-			</div>
-		</div>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+		 <div class="card-body">
+			 <h5 class="card-title bg-light">New Features</h5>
+			 <p class="card-text">Mobile and Tablet support</p>
+			 <p class="card-text">With this new update you will be able to sync your work across a large number of platforms.</p>
+			 <a href="#" class="btn btn-primary">Read more</a>
+		 </div>
+	</div>
+		 <div class="card bg-danger">
+      <div class="card-header">
+        Alert
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Node Dead</h5>
+        <p class="card-text">Node 5 (east-us) is offline for the last 12 days.</p>
+      </div>
+    </div>
+	<div class="card-img-top">
+		<img src="https://img.freepik.com/free-photo/peaceful-sea-texture_1199-60.jpg" alt="see img">
+	<h4>President under Pressure</h4>
+		<p>The US president is under pressure to respond to a widespread cuber-attack linked to China.</p>
+		<p><small>Last updated 12 mins ago</small></p>
+	</div>
+    <script type="text/javascript" src="./script.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
