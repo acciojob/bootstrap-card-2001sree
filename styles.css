@@ -1,2 +1,11 @@
-
-/* Your CSS Code here. */
+.bg-secondary{
+	background-color: lightgray;
+}
+.bg-primary{
+	background-color:lightblue;
+}
+.bg-danger{
+	background-color:red;
+	color:white;
+	width:200px;
+}
